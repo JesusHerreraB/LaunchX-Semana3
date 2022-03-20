@@ -1,0 +1,137 @@
+h1, h2 {
+    font-weight: bold;
+    color: rgb(3, 30, 117);
+}
+h4 {
+    font-weight: bold;
+    color: rgb(3, 30, 117);
+}
+
+h5 {
+    font-weight: bold;
+    color: rgb(3, 30, 117);
+}
+
+div.flotante{
+    width: 75%;
+    height: 100%;
+    position: relative;
+    bottom: 120px;
+    background-color: rgba(255, 255, 255, 0.527);
+}
+
+div.container-fluid{
+    width: 55%;
+    height: 100%;
+    position: relative;
+    top: 10px;
+    left: 75px;
+}
+
+div.logos{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 70px;
+}
+
+div.move{
+    position: relative;
+    left: 60px;
+}
+div.separ{
+    transform: scale(0.92);
+}
+
+div.salto{
+    position: relative;
+    top: 60px;
+}
+
+button.caja{
+    background-color: rgb(5, 50, 196);
+    font-weight: bold;
+    transform: scale(1.2);
+    position: relative;
+        left: 20px;
+}
+
+button.caja2{
+    background-color: rgb(5, 50, 196);
+    
+    position: relative;
+    bottom: 15px;
+    left: 40px;
+    transform: scale(1.4);
+}
+
+button.botons{
+    color: rgb(111, 111, 112);
+}
+button.b1{
+    font-weight: bold;
+    color: rgb(5, 50, 196);
+    font-size: larger;
+}
+
+p.c1{
+    font-weight:400;
+    color: rgb(144, 144, 146);
+}
+
+p.c2{
+    font-weight:400;
+    font-size: small;
+    color: rgb(144, 144, 146);
+}
+
+p.negrita{
+    font-weight: bolder; 
+    font-size: medium;
+    text-indent: 35px;
+    position: relative;
+    padding-left: -18px;
+    bottom: 20px;
+}
+
+img.bajar{
+    position: relative;
+    top: 7px; 
+    right: 10px;
+}
+p.number{
+    font-size: small;
+    color: rgb(111, 111, 112);
+    position: relative;
+    bottom: 20px; 
+    left: 50px;
+}
+
+details summary {
+    width: 100%;
+    padding: 0.9rem 0;
+    position: relative;
+    font-size: 1.25rem;
+    font-weight: 300;
+    list-style: none;
+}
+details summary:after {
+    content: ">";
+    color: black;
+    position: absolute;
+    font-size: 1.75rem;
+    line-height: 0;
+        right: 150px;
+    bottom: 35px;
+    font-weight: 200;
+    transform-origin: center;
+}
+details[open] summary:after {
+    transform: rotate(270deg);
+    font-size: 2rem;
+}
+
+#foot{
+    font-size: small;
+    color: rgb(111, 111, 112);
+}
